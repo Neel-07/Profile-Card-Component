@@ -1,0 +1,104 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(185, 75%, 39%);
+    background-image: url('./profile-card-component-main/images/bg-pattern-top.svg'), url('./profile-card-component-main/images/bg-pattern-bottom.svg');
+    background-position: right 50vw bottom 40vh ,left 45vw top 60vh; /* positions for the images */
+    background-repeat: no-repeat, no-repeat; /* makes sure the images only appear once */
+    /* background-size: 100%, 100%; */
+    height: 100vh; /* makes the body take the full viewport height */
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* makes the container take the full height of its parent */
+}
+
+.card{
+    background-color: azure;
+    height:400px;
+    width:380px;
+    border-radius: 15px;
+
+}
+
+
+.image #bg_img{
+    width:100%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+.profile_pic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ #profile{
+    border-radius: 50%; 
+    margin-top: -55px;
+    background-color: rgb(244, 244, 245);
+    border-radius: 50%;
+    border:6px solid white;
+    
+}
+
+.f1{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    gap:8px;
+    margin-top: 20px;
+}
+
+#name{
+   font-weight: bolder;
+}
+
+#age{
+    color: hsl(0, 0%, 59%);
+}
+
+.para p{
+    font-size: 14px;
+    color: hsl(0, 0%, 59%);
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    border-bottom: 1px solid  hsl(0, 3%, 77%);
+    margin:7px;
+    padding-bottom:25px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    gap: 20px;
+    margin: 30px;
+}
+
+.foot p:first-child{
+    font-size: 18px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.foot p:last-child{
+    font-size: 13px;
+    color: hsl(0, 0%, 59%);
+    padding-top: 10px;
+    padding-bottom:10px;
+    font-weight:bold;
+    text-align: center;
+
+}
