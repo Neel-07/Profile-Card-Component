@@ -18,7 +18,7 @@ In the Profile Card Component project, I undertook the task of creating a visual
   
 ### Screenshot
 
-![](./design/desktop-preview.jpg)
+![](./profile-card-component-main/design/desktop-design.jpg)
 
 ### Links
 - Live Site URL: [Click here](https://neel-07.github.io//)
