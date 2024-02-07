@@ -21,7 +21,7 @@ In the Profile Card Component project, I undertook the task of creating a visual
 ![](./profile-card-component-main/design/desktop-design.jpg)
 
 ### Links
-- Live Site URL: [Click here](https://neel-07.github.io//)
+- Live Site URL: [Click here](https://neel-07.github.io/Profile-Card-Component/)
 
 ## My process
    To kick off the project, I carefully structured the HTML to define the layout of the profile card, ensuring a clear and accessible design. Subsequently, I dedicated my efforts to CSS styling, concentrating on achieving visual attractiveness and responsiveness across various devices. This involved meticulous attention to detail in terms of layout, color choices, and typography to create a polished and user-friendly profile card component.
